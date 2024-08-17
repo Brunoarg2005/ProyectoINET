@@ -1,0 +1,15 @@
+body {
+    background-color: #fffacd; /* Fondo amarillo claro */
+}
+
+nav {
+    background-color: #ffd700; /* Amarillo */
+}
+
+button {
+    background-color: #ffd700;
+}
+
+button:hover {
+    background-color: #ffeb3b;
+}

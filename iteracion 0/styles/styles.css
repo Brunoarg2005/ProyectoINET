@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 0.8em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    background-color: white;
+    padding: 2em;
+    margin: 2em auto;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 0.8em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.producto{
+	
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.producto img {
+    max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto;
+    margin-right: 15px; /* Espacio entre la imagen y el texto */
+    object-fit: cover; /* Asegura que la imagen mantenga sus proporciones */
+}
+.productos-carrito {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.producto {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.producto p {
+    margin: 0;
+    font-size: 1em;
+}
+.productoContainer{
+	width:100%;
+	display:flex;
+	float: left;
+	justify-content: emnd ;
+}

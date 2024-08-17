@@ -1,0 +1,15 @@
+body {
+    background-color: #ffe5e5; /* Fondo rojo claro */
+}
+
+nav {
+    background-color: #ff4500; /* Rojo */
+}
+
+button {
+    background-color: #ff4500;
+}
+
+button:hover {
+    background-color: #ff6347;
+}
